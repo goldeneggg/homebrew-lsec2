@@ -2,23 +2,23 @@ require "formula"
 
 class Lsec2 < Formula
   homepage 'https://github.com/goldeneggg/lsec2'
-  version '0.2.0'
+  version '0.2.1'
 
   if Hardware::CPU.is_32_bit?
     if OS.linux?
-      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.0/lsec2_linux_386.zip'
-      sha256 'be0cd94b40c40c3d8b237539e39d55100608771aee44dbb97e01b98051b5e032'
+      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.1/lsec2_linux_386.zip'
+      sha256 'ec0f951db6ad3fc464d064bbb7a61855078ca50e4eb2f130602fe76bb791bc32'
     else
-      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.0/lsec2_darwin_386.zip'
-      sha256 'd2552ab2fab1c692ec5f0c3c5f34d18cc73d8d5fa1492873b1aac3b2e67502f8'
+      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.1/lsec2_darwin_386.zip'
+      sha256 '821b4ace772fcd56049fd1122f5d820b5e5a529866599be088a8e155b6078e49'
     end
   else
     if OS.linux?
-      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.0/lsec2_linux_amd64.zip'
-      sha256 'e3f6f3c1b0b80ebf54df4a8d2e2c4592399e2dab307ce2ec51b0e3f87cc6eab4'
+      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.1/lsec2_linux_amd64.zip'
+      sha256 'f98ba0b25122c481e6a42bfc25e75cf28b1f880c5405ca129be73385e1bcf47f'
     else
-      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.0/lsec2_darwin_amd64.zip'
-      sha256 '76c4d2ed02118c64b21d1ff76d1af00bedf47226bc4927f6ff3356ad7ae2618c'
+      url 'https://github.com/goldeneggg/lsec2/releases/download/v0.2.1/lsec2_darwin_amd64.zip'
+      sha256 '9d191bf2f569e511a8bcea54fe05dcf691546924ca8ab0e080dbc4a5eb382fee'
     end
   end
 
